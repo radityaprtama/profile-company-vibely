@@ -80,19 +80,19 @@ header {
 
 .header-container {
   display: flex;
-  align-items: center;   /* supaya logo & teks sejajar tengah */
-  justify-content: space-between; /* bagi ruang antara kiri & kanan */
+  align-items: center;   
+  justify-content: space-between; 
 }
 
 .logo {
-  height: 100px;   /* bisa disesuaikan */
+  height: 100px;   
   margin-right: 20px;
 }
 
 header h1 {
   margin: 0;
   font-size: 1.2rem;
-  flex: 1; /* biar judul dorong menu ke kanan */
+  flex: 1; 
 }
 
 nav a {
@@ -104,3 +104,4 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
